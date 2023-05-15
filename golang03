@@ -1,0 +1,24 @@
+Crie uma struct chamada Triângulo com os campos "base" e "altura". Escreva uma função que receba um Triângulo como parâmetro e calcule a área do triângulo (área = base * altura / 2).
+
+package main
+
+import "fmt"
+
+type Triangulo struct {
+	base   float64
+	altura float64
+}
+
+func calcularAreas(triangulo Triangulo) float64 {
+	return (triangulo.base * triangulo.altura) / 2
+}
+
+func main() {
+	triangulo := Triangulo{}
+	fmt.Println("Informe a base:")
+	fmt.Scan(&triangulo.base)
+	fmt.Println("Informe a altura:")
+	fmt.Scan(&triangulo.altura)
+	area := calcularAreas(triangulo)
+	fmt.Println("A area é: ", area)
+}
