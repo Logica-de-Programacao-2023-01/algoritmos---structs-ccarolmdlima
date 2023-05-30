@@ -1,5 +1,3 @@
-Crie uma struct chamada Viagem com os campos "origem", "destino", "data" e "preço". Escreva uma função que receba um slice de Viagens como parâmetro e retorne a viagem mais cara.
-
 package main
 
 type Viagem struct {
