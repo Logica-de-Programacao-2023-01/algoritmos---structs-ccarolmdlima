@@ -1,5 +1,3 @@
-Crie uma struct chamada Triângulo com os campos "base" e "altura". Escreva uma função que receba um Triângulo como parâmetro e calcule a área do triângulo (área = base * altura / 2).
-
 package main
 
 import "fmt"
